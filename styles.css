@@ -1,0 +1,97 @@
+body {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Helvetica, sans-serif;
+
+}
+
+.bg-gray {
+  background-color:#dfe1e4;
+}
+.bg-rounded {
+  border-radius:15px;
+}
+
+.bg-blue {
+  background-color: #0866FF;
+}
+
+.bg-main {
+  background-color: #979797;
+}
+
+
+.max-width-900{
+  max-width: 900px;
+}
+
+.user-chip {
+    display: inline-block;
+    padding: 0 15px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #e4dede;
+  }
+  
+  .user-chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+/* commment chip  */
+  .chip {
+    display: inline-block;
+    width:20rem;
+    min-height:6rem;
+    height:auto;
+    padding: 2px 25px;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 5px;
+    background-color: #f8f7f7;
+    margin-bottom: 5px;
+    /* box-shadow: 2px 2px 20px #a59c9c; */
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+  html, body {
+    /* prevent mobile scroll x  */
+    overflow-x: hidden;
+}
+
+body {
+    /* prevent mobile scroll x  */
+    position: relative;
+}
+
+
+.material-symbols-outlined, .icon-reg {
+  
+  color: #0d47a1 !important;
+}
+
+.material-symbols-outlined:hover, .icon-reg:hover {
+  color: #f44336 !important;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.fas.fa-share-alt:hover {
+  color: #0d47a1 !important;
+}
+
+
+
+
